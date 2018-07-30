@@ -1,6 +1,6 @@
 {
   "name": "@mixer/executed-nested-binary",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Executes a node binary from this folder or any parent",
   "main": "index.js",
   "bin": {
