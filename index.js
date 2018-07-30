@@ -39,6 +39,7 @@ const executeScript = (binary, args) => {
       ...process.env,
       PATH: [process.env.PATH, ...getNodeBinaryFolders(process.cwd())].join(delimiter),
     },
+    shell: true,
   });
 
   script.on('error', err => {
