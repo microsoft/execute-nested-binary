@@ -7,7 +7,7 @@ This tool solves a problem with running scripts in (specifically) Lerna monorepo
 ### Usage
 
 ```
-npm install -g @mixer/execute-nested-binary
+npm install -g @mixer/executed-nested-binary
 ```
 
 You can run your commands by prefixing them with `node-ex`:
